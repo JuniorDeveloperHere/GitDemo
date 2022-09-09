@@ -10,6 +10,7 @@ public class Main {
 
 
         int totalCost = car1.getCost() + car2.getCost() + car3.getCost();
-        System.out.println(totalCost);
+        int audiCost = car2.getCost();
+        System.out.println(audiCost);
     }
 }
