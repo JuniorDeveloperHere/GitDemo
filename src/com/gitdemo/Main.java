@@ -8,6 +8,8 @@ public class Main {
         Car car2 = new Car("Honda", 10000, 2005);
         Car car3 = new Car("Audi", 30000, 2020);
 
+        Driver dima = new Driver("Dima", 22);
+
 
         int totalCost = car1.getCost() + car2.getCost() + car3.getCost();
         int audiCost = car2.getCost();
@@ -15,5 +17,6 @@ public class Main {
 
         System.out.println("Hello world");
         System.out.println("Hello Dima");
+
     }
 }
